@@ -4,7 +4,8 @@
 
 1. python -m venv venv #가상환경생성
 2. cd ./venv/Scripts/activate.bat # 가상환경 활성화
-3. pip install -r requirements.txt # txt설정 정보 읽어와서 필요 툴 다운로드
+3. cd ./venv/Scripts/.\activate.bat
+4. pip install -r requirements.txt # txt설정 정보 읽어와서 필요 툴 다운로드
 
 cuda버전 확인및 gpu 세팅
 1. nvidia-smi 실행후 버전 확인: cuda 버전확인
