@@ -12,6 +12,7 @@ cuda버전 확인및 gpu 세팅
 2. pytorch홈페이지(https://pytorch.org/get-started/locally/)에서 해당버전 install 코드 확인: 설치 전 설치파일 삭제
 3. 설치 완료 후 python 환경에서 import torch.cuda
 4. torch.cuda.is_available()실행 후 가능여부 확인- True
+5. pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 한글 데이터 생성
 1. python tools/hangul-image-generator.py --label-file labels/256-common-hangul.txt
